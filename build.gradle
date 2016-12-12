@@ -1,0 +1,21 @@
+apply plugin: 'eclipse'
+apply plugin: 'scala'
+
+//sourceCompatibility JavaVersion.VERSION_1_7
+//targetCompatibility JavaVersion.VERSION_1_7
+
+
+
+repositories {
+    //mavenCentral()
+	maven{url "http://maven.aliyun.com/nexus/content/groups/public/"}
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.1'
+}
+
+dependencies {
+    compile 'commons-collections:commons-collections:3.2.2'
+    testCompile 'junit:junit:4.12'
+}
