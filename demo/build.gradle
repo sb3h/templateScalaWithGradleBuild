@@ -1,0 +1,8 @@
+apply plugin: 'eclipse'
+apply plugin: 'scala'
+
+dependencies {
+
+//    compile 'org.apache.spark:spark-streaming_2.11:2.1.0'
+    compile 'org.scala-lang:scala-library:2.11.1'
+}
