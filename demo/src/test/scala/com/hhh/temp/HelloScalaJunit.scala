@@ -1,3 +1,5 @@
+package com.hhh.temp
+
 import org.junit.Test
 
 /**
@@ -7,6 +9,6 @@ class HelloScalaJunit {
 
 
   @Test def testScala() {
-    System.out.println("HelloScalaJunit")
+    System.out.println("com.hhh.temp.HelloScalaJunit")
   }
 }

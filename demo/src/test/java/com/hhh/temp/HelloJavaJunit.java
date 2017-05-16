@@ -1,3 +1,5 @@
+package com.hhh.temp;
+
 import org.junit.Test;
 
 /**
@@ -6,6 +8,6 @@ import org.junit.Test;
 public class HelloJavaJunit {
     @Test
     public void testJava() {
-        System.out.println("HelloJavaJunit");
+        System.out.println("com.hhh.temp.HelloJavaJunit");
     }
 }
