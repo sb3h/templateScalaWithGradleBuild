@@ -1,4 +1,15 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
+    //println "getDistributionUrl():"+getDistributionUrl()
+    String distributionUrl = getDistributionUrl().replaceAll("bin.zip","all.zip")
+    setDistributionUrl(distributionUrl)
+}
+wrapper.group "build setup"
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
 buildscript {
     repositories {
         maven{url "http://maven.aliyun.com/nexus/content/groups/public/"}
