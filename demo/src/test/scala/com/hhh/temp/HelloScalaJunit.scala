@@ -9,6 +9,8 @@ class HelloScalaJunit {
 
 
   @Test def testScala() {
-    System.out.println("com.hhh.temp.HelloScalaJunit")
+    println("com.hhh.temp.HelloScalaJunit")
   }
+
+
 }
